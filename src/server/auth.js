@@ -35,11 +35,11 @@ function authentication(options) {
 
     router.use('/content', auth, express.static(pathToProtect));
 
-    // router.get('/content', (req, res) => {
-    //   if( (!req.session.username)){
-    //     res.status(401).render(unauthorizedView);
-    //   }
-    // });
+    router.get('/content', (req, res) => {
+      if( (!req.session.username)){
+        res.status(401).render(unauthorizedView);
+      }
+    });
 
     router.get('/login', (req, res) => {
       //...

@@ -25,11 +25,13 @@
   "homepage": "https://github.com/ULL-ESIT-DSI-1819/p8-t3-sessions-and-modules-alu0101015927#readme",
   "dependencies": {
     "@ull-esit-pl/auth": "^1.0.6",
+    "auth-mgl": "0.0.1",
     "cookie-parser": "^1.4.4",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "express-session": "^1.15.6",
     "ip": "^1.1.5",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "server-auth-mgl": "0.0.1"
   }
 }
