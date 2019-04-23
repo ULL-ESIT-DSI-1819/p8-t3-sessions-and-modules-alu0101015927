@@ -4,7 +4,7 @@
   "description": "p8-t3-sessions-and-modules-alu0101015927 created by GitHub Classroom",
   "main": "index.js",
   "scripts": {
-    "start": "node códigoSinModulos/src/server/server.js",
+    "start": "nodemon server-auth-alu0101015927/src/server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
