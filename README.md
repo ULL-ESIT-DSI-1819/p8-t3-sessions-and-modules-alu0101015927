@@ -11,5 +11,5 @@ p8-t3-sessions-and-modules-alu0101015927 created by GitHub Classroom
 
 ### Heroku 
 
-![imagen heroku](imp/p8-heroku.png)
+![imagen heroku](img/p8-heroku.png)
 
